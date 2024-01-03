@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_main.css">
+    <title>7 Najlepszych Samochodów</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">Samochody 7</div>
+    <nav class="main-menu">
+        <ul>
+            <li><a href="index_main.html">Strona Główna</a></li>
+            <li><a href="Nasze_Samochody.html">Nasze Samochody</a></li>
+            <li><a href="ankieta.html" target="_blank">Ankieta</a></li>
+        </ul>
+    </nav>
+    <nav class="external-menu">
+        <ul>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="https://www.otrivin.pl" target="_blank">W razie kataru</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="tresc">
+  <p> Samochody to nie tylko środki transportu z punktu A d</p>
+    <p>o B. Na tej stronie znajdziejsz 7 najszybszych, największych, najładniejszych z nich. </p>
+</div>
+	 <div class="image-container">
+    <img src="../Zdjecia/animacja.jpg" alt="Opis zdjęcia">
+  </div>
+
+<style>
+	  .animation-container {
+      position: relative;
+      height: 200px; 
+      overflow: hidden;
+    }
+
+    .moving-circle {
+      width: 50px;
+      height: 50px;
+      background-color: #3498db;
+      border-radius: 50%;
+      position: absolute;
+      animation: moveRight 4s linear infinite;
+    }
+
+    @keyframes moveRight {
+      0% {
+        left: -50px;
+      }
+      100% {
+        left: calc(100% + 50px);
+      }</style>
+<div class="animation-container">
+    <div class="moving-circle"></div>
+</div>
+<footer>
+    <p>Jakub Dyński | 2Tb </p>
+</footer>
+
+</body>
+</html>
